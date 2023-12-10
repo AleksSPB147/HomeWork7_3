@@ -7,23 +7,11 @@ int F(int n)
 {
     if (n != 1 || n != 2)
     {
-        if (n == 1)
-            return 1;
-        if (n == 2)
-            return 1;
         if (n > 2)
-            return F(n - 2) * n;
+        return F(n - 2) * n;
     }
     return 1; 
 }
-
-
-
-
-
-
-
-
 
 int main()
 {
